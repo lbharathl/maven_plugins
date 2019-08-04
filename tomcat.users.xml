@@ -1,0 +1,2 @@
+<user username="tomcat" password="tomcat" roles="manager-gui"/>
+<user username="tomcat1" password="tomcat1" roles="manager-script"/>
