@@ -8,3 +8,4 @@ executing webapp-tomcatdeployment with commands==> mvn tomcat7:deploy
                                                     
 Executing build profiles commands==> mvn tomcat7:deploy -P DEV or QA                                                    
                                      mvn tomcat7:redeploy QA
+Executing Nexus release command==> mvn deploy or mvn redeploy
