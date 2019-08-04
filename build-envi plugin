@@ -1,0 +1,46 @@
+PASTE AFTER DEPENDECIES
+
+
+<profiles>
+
+<profile>
+<id>DEV</id>
+<build>
+<plugins>
+<plugin>
+	<groupId>org.apache.tomcat.maven</groupId>
+	<artifactId>tomcat7-maven-plugin</artifactId>
+	<version>2.2</version>
+	<configuration>
+		<url>http://34.74.229.215:8080/manager/text</url>
+		<server>TomcatServer1</server>
+		<path>/WebApp1</path>
+	</configuration>
+</plugin>
+</plugins>
+</build>
+</profile>
+
+<profile>
+<id>QA</id>
+<build>
+<plugins>
+<plugin>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
+        <version>2.2</version>
+        <configuration>
+                <url>http://34.74.139.22:8080/manager/text</url>
+                <server>TomcatServer2</server>
+                <path>/webapp2</path>
+        </configuration>
+</plugin>
+</plugins>
+</build>
+</profile>
+
+</profiles>
+
+</project>
+</project>
+
