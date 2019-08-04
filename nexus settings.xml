@@ -1,0 +1,16 @@
+
+<settings>
+<servers>
+<server>
+	<id>snapshotRepo</id>
+	<username>admin</username>
+	<password>admin123</password>
+</server>
+
+<server>
+	<id>releaseRepo</id>
+	<username>admin</username>
+	<password>admin123</password>
+</server>
+</servers>
+</settings>
