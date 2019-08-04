@@ -1,0 +1,19 @@
+PASTE AFTER DEPENDECIES
+
+<distributionManagement>
+
+<repository>
+<id>releaseRepo</id>
+<name>releaseRepo</name>
+<url>http:// IP add:8081/nexus/content/repositories/releaseRepo</url>
+</repository>
+
+<snapshotRepository>
+<id>snapshotRepo</id>
+<name>snapshotRepo</name>
+<url>http:// Ip Add:8081/nexus/content/repositories/snapshotRepo</url>
+</snapshotRepository>
+
+</distributionManagement>
+
+</project>
